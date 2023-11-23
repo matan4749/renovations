@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    text-align: center;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  

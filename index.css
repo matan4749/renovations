@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 15px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .hero {
+    background-image: url('Photos/HomePage.jpeg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px;
+  }
+  @media screen and (max-width: 600px) {
+    .content {
+      margin-left: 0;
+    }
+  }
+  
+    
+    .container {
+      display: flex;
+    }
+  .sidebar {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: #111;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar a:not(:first-child) {
+    border-top: 1px solid #bbb;
+  }
+  .container .content {
+    flex: 1;
+    padding: 16px;
+  }
+  .about {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  
+  #toggleBtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+  }
+  
+  #toggleBtn:hover {
+    background-color: #444;
+  }
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .services {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    margin-bottom: 20px;
+  }
+  
+  .service img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
